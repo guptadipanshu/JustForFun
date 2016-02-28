@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+#include "Trees.h"
+
+int main(){
+	int choice=1;
+	while(choice!=0){
+		cout<<"Welcome choose an option\n1.Insert\n0.Exit\n";
+		cin>>choice;
+		switch(choice){
+		case 1 :{ cout<<"insert selected\n";
+					Tree *t = new Tree();
+					t->printMax();
+				}
+				break;
+		default: cout<<"unkown";
+		}
+	}
+}

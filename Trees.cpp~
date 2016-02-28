@@ -1,0 +1,8 @@
+#include "Trees.h"
+
+#include <iostream>
+using namespace std;
+
+void Tree::insert(){
+cout<<"finally I can code\n";
+}
